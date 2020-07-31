@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BEAR
+Comment=BEAR P2P Cryptocurrency
+Comment[fr]=BEAR, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BEAR, eşten eşe kriptografik sanal para birimi
+Exec=bear-qt %u
+Terminal=false
+Type=Application
+Icon=bear128
+MimeType=x-scheme-handler/bear;
+Categories=Office;Finance;

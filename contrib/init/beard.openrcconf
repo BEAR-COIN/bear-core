@@ -1,0 +1,26 @@
+# /etc/conf.d/beard: config file for /etc/init.d/beard
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bear/bear.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/beard"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/beard.pid"
+
+# Where to write beard data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/beard"
+
+# User and group to own beard process
+#BITCOIND_USER="bear"
+#BITCOIND_GROUP="bear"
+
+# Path to beard executable
+#BITCOIND_BIN="/usr/bin/beard"
+
+# Nice value to run beard under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
