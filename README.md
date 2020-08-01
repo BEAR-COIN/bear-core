@@ -75,6 +75,18 @@ Demon status:
 
     ./bear-cli getinfo
 
+Additionally you can compile wallet for Windows by following steps:
+
+    sudo apt install g++-mingw-w64-x86-64
+
+    cd depends
+    make HOST=i686-w64-mingw32
+    cd ..
+    make clean
+    ./autogen.sh
+    ./configure --prefix=`pwd`/depends/i686-w64-mingw32
+    sudo make
+
 ***
 
 ## Security
