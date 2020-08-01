@@ -14,7 +14,7 @@
 <tr><td>Block reward</td><td>1 BEAR (flat block reward)</td></tr>
 <tr><td>Staking (PoS) reward</td><td>1% (≈0.01 BEAR)</td></tr>
 <tr><td>Masternode reward</td><td>90% (=0.90 BEAR)</td></tr>
-<tr><td>Public fund</td><td>9%</td></tr>
+<tr><td>Public fund</td><td>9% (=0.09 BEAR)</td></tr>
 </table>
 
 By following parameters, we'll have:
@@ -61,7 +61,7 @@ Cloning the repository and compiling (use any user with the sudo group):
     ./configure --prefix=`pwd`/depends/x86_64-pc-linux-gnu
     sudo make
     
-Compiled binaries you can find in /src and src/qt folders.
+Compiled binaries you can find in /src and src/qt folders. Files: beard, bear-cli, bear-tx and bear-qt (Graphical User Interface (GUI) wallet).
     
 Running the daemon:
 
@@ -87,6 +87,7 @@ Additionally you can compile wallet for Windows by following steps:
     ./configure --prefix=`pwd`/depends/i686-w64-mingw32
     sudo make
 
+Compiled binaries you can find in /src and src/qt folders. Files: beard.exe, bear-cli.exe, bear-tx.exe and bear-qt.exe (Graphical User Interface (GUI) wallet).
 ***
 
 ## Security
