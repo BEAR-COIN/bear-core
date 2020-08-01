@@ -53,7 +53,7 @@ Installation of libraries (using root user):
 Cloning the repository and compiling (use any user with the sudo group):
 
     git clone https://github.com/BEAR-COIN/bear-core.git
-    cd depends
+    cd bear-core/depends
     make HOST=x86_64-pc-linux-gnu
     cd ..
     make clean
